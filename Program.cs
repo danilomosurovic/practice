@@ -1,4 +1,5 @@
 ﻿using System;
+using practice.Abstract;
 
 namespace practice
 {
@@ -6,7 +7,8 @@ namespace practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var derivedClass = new DerivedClass();
+            derivedClass.PrintToConsole("Danilo");
         }
     }
 }
