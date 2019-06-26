@@ -1,5 +1,4 @@
 ﻿using System;
-using practice.Abstract;
 using practice.Interfaces;
 
 namespace practice
